@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "/Users/ecloud/github/qmk_firmware/keyboards/crkbd/keymaps"
+		},
+		{
+			"path": "/Users/ecloud/github/qmk_firmware/keyboards/crkbd"
+		}
+	],
+	"settings": {}
+}
