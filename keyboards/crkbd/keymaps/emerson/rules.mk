@@ -1,6 +1,8 @@
 COMBO_ENABLE = yes
 TAP_DANCE_ENABLE=no
 MOUSEKEY_ENABLE = yes
+COMMAND_ENABLE = yes
+BOOTMAGIC_ENABLE = full
 SRC +=  ./lib/glcdfont.c \
         ./lib/rgb_state_reader.c \
         ./lib/layer_state_reader.c \
