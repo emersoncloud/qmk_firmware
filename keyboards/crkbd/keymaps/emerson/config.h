@@ -24,9 +24,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* Select hand configuration */
 
-#define MASTER_LEFT
+#define MASTER_RIGHT
 // #define MASTER_RIGHT
-// #define EE_HANDS
+#define EE_HANDS
 
 #define SSD1306OLED
 
@@ -38,6 +38,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define ONESHOT_TIMEOUT 2000 
 
 #define COMBO_COUNT 1
+
+#define BOOTMAGIC_KEY_DEFAULT_LAYER_2 KC_V
+#define BOOTMAGIC_KEY_DEFAULT_LAYER_1 KC_G
+#define BOOTMAGIC_KEY_DEFAULT_LAYER_0 KC_F
 
 #ifdef RGBLIGHT_ENABLE
     #undef RGBLED_NUM
