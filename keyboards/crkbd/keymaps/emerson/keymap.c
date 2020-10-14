@@ -40,7 +40,7 @@ enum custom_keycodes {
 //   JK_ESC
 // };
 
-// #define MASTER_RIGHT
+
 // enum {
 //   TD_C_S = 0
 // };
@@ -131,6 +131,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                      KC_HOME, KC__VOLDOWN, KC__VOLUP, KC_END, XXXXXXX, XXXXXXX,\
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       KC_F7, KC_F8, KC_F9, KC_F10, KC_F11, KC_F12,                      XXXXXXX, KC_BRID, KC_BRIU, XXXXXXX, XXXXXXX, XXXXXXX,\
+
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
                                           LOWER,  KC_LGUI,  KC_LSFT,    RAISE, KC_SPC, KC_ENT \
                                       //`--------------------------'  `--------------------------'

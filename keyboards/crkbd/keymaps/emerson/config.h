@@ -25,6 +25,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* Select hand configuration */
 
 #define MASTER_LEFT
+
 #define EE_HANDS
 
 #define SSD1306OLED
