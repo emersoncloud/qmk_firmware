@@ -116,9 +116,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_LOWER] = LAYOUT( \
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
-     CMDSFT_GRV,  KC_1,    KC_2,    KC_3,    KC_4,     KC_5,                       KC_6,     KC_7,     KC_8,     KC_9,    KC_0, XXXXXXX,\
+     CMDSFT_GRV,  KC_1,    KC_2,   KC_3, CMDSFT_R, CMDSFT_T,                       KC_6,     KC_7,     KC_8,     KC_9,    KC_0, XXXXXXX,\
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, CMDSFT_F, XXXXXXX,                      KC_LEFT,  KC_DOWN, KC_UP, KC_RIGHT, XXXXXXX, XXXXXXX,\
+      KC_1,   KC_2,     KC_3,     KC_4, CMDSFT_F, XXXXXXX,                      KC_LEFT,  KC_DOWN, KC_UP, KC_RIGHT, XXXXXXX, XXXXXXX,\
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       KC_F1, KC_F2, KC_F3, KC_F4, KC_F5, KC_F6,                      KC_UNDS, KC_PLUS, KC_LBRC, KC_RBRC, XXXXXXX, XXXXXXX,\
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
